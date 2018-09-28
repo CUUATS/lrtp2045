@@ -33,8 +33,11 @@ both.
 
 {{<table url="Municipalities_BasicInfo_2010-2015.csv"
 title="Basic Characteristics of Municipalities within the MPA"
-switch="false"
+switch="true"
 source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B01003) and US Census Bureau, Decennial Census, 2010">}}
+
+{{<bar-chart url="Chart-1-BasicDemoInfo.csv"
+title="Percent Change in Population and Land Area">}}
 
 ## Age and Gender ##
 
@@ -57,8 +60,11 @@ title="Hispanic or Latino Ethnicity within Municipalities of the MPA"
 switch="true"
 source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B03002)">}}
 
-## Income ##
+## Income and Poverty ##
 
-
+{{<table url="ACS15-0Cars.csv"
+title="Access to Motor Vehicles per Household"
+switch="true"
+source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B08201)">}}
 
 ## Population Distribution and Density ##
