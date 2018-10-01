@@ -11,7 +11,7 @@ bannerText: >
 ---
 
 The Champaign-Urbana Urbanized Area is a diverse region spanning approximately
-47 square miles and containing a population of more than 145,000 people in
+47 square miles and containing a population of more than 148,000 people in
 east-central Illinois. The region is located 135 miles south of Chicago,
 Illinois, 120 miles west of Indianapolis, Indiana, and 180 miles northeast of
 Saint Louis, Missouri. Five municipalities are partially or wholly within the
@@ -31,12 +31,12 @@ increased modestly for most of the municipalities within the MPA. The greatest
 change in land area occurred in Urbana and Mahomet, with about 2% increases for
 both.
 
-{{<table url="Municipalities_BasicInfo_2010-2015.csv"
+{{<table url="basicdemographics2010-2015.csv"
 title="Basic Characteristics of Municipalities within the MPA"
 switch="true"
 source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B01003) and US Census Bureau, Decennial Census, 2010">}}
 
-{{<bar-chart url="Chart-1-BasicDemoInfo.csv"
+{{<bar-chart url="chart-basicdemoinfo.csv"
 title="Percent Change in Population and Land Area">}}
 
 ## Age and Gender ##
@@ -50,21 +50,26 @@ title="Percent Change in Population and Land Area">}}
 ## Race and Ethnicity ##
 
 
-{{<table url="ACS15-Race.csv"
+{{<table url="acs15-race.csv"
 title="Race Composition of Municipalities within the MPA"
 switch="true"
 source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B02001)">}}
 
-{{<table url="ACS15-Ethnicity.csv"
+{{<table url="acs15-ethnicity.csv"
 title="Hispanic or Latino Ethnicity within Municipalities of the MPA"
 switch="true"
 source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B03002)">}}
 
 ## Income and Poverty ##
 
-{{<table url="ACS15-0Cars.csv"
+{{<table url="acs15-0cars.csv"
 title="Access to Motor Vehicles per Household"
 switch="true"
 source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B08201)">}}
+
+{{<bar-chart url="acs15-0cars2010-2015.csv"
+xtype="auto"
+ylabel="Percentage of Households"
+title="Households with Limited Motor Vehicle Access from 2010 to 2015">}}
 
 ## Population Distribution and Density ##
