@@ -62,13 +62,28 @@ source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B03002)">}}
 
 ## Income and Poverty ##
 
+In 2015, more than 8,000 households, or approximately fourteen percent of
+households within the urbanized area, had no access to motor vehicles. From 2010
+to 2015, all municipalities within the MPA witnessed an increase in the total
+combined percentage of zero vehicle households and households with limited
+access to a motor vehicle, except Savoy. Urbana and Champaign have the highest
+percentages of households with limited access to a motor vehicle. Approximately
+forty percent of Urbana households and thirty percent of Champaign households do
+not own a motor vehicle, or live in households with limited access to a motor
+vehicle. Mahomet has experienced the most significant decrease in access to
+motor vehicles. The percentage of households without any motor vehicle in
+Mahomet more than doubled between 2010 and 2015, meanwhile the percentage of
+households with only limited access to vehicles also increased by about two
+percent.
+
 {{<table url="acs15-0cars.csv"
 title="Access to Motor Vehicles per Household"
 switch="true"
 source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B08201)">}}
 
 {{<bar-chart url="acs15-0cars2010-2015.csv"
-xtype="auto"
+stacked="true"
+xangle="-90"
 ylabel="Percentage of Households"
 title="Households with Limited Motor Vehicle Access from 2010 to 2015">}}
 
