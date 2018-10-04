@@ -37,16 +37,53 @@ switch="true"
 source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B01003) and US Census Bureau, Decennial Census, 2010">}}
 
 {{<bar-chart url="chart-basicdemoinfo.csv"
+ylabel="Percent Change"
+legend-alignment="center"
+legend-row-width="1"
 title="Percent Change in Population and Land Area">}}
 
 ## Age and Gender ##
 
+In larger populations, the ratio of men to women approaches one-to-one, or
+approximately fifty percent males to fifty percent females. Data refined from
+the 2015 American Community Survey estimates a nearly balanced ratio of males to
+females in overall U.S. population, with 0.4% more females than males. In
+Champaign, Urbana, and Bondville, gender equilibrium closely parallels the
+national ratio. For the remaining MPA municipalities, a more unbalanced gender
+ratio exists. A greater percentage of females live in Savoy and Mahomet, and
+approximately 6.5% more men reside in Tolono.
+
+{{<bar-chart url="acs15-gender-awayfrom50.csv"
+stacked="true"
+xangle="0"
+xaxis="numeric"
+ylabel="Percent Distance away from Equilibrium"
+legend-alignment="center"
+legend-row-width="2"
+grid-lines="true"
+title="Percent Gender Difference within the MPA">}}
+
+{{<bar-chart url="acs15-age.csv"
+stacked="true"
+xangle="0"
+ylabel="Percent of Population"
+legend-alignment="center"
+legend-row-width="1"
+grid-lines="false"
+title="Percent Age Distribution within the MPA">}}
 
 
 ## People with Disabilities ##
 
-
-
+{{<bar-chart url="acs-disability2010-2015.csv"
+stacked="true"
+xangle="-0"
+columns="1,2,3,4"
+ylabel="Percentage of Population"
+legend-alignment="center"
+legend-row-width="1"
+grid-lines="true"
+title="Percentage of the Population with a Disability">}}
 ## Race and Ethnicity ##
 
 
@@ -61,6 +98,15 @@ switch="true"
 source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B03002)">}}
 
 ## Income and Poverty ##
+
+{{<bar-chart url="acs-poverty2010-2015.csv"
+stacked="false"
+xangle="0"
+grid-lines="true"
+legend-alignment="center"
+legend-row-width="1"
+ylabel="Percentage of Population"
+title="Percentage of Population Living below the Poverty Level">}}
 
 In 2015, more than 8,000 households, or approximately fourteen percent of
 households within the urbanized area, had no access to motor vehicles. From 2010
@@ -84,6 +130,8 @@ source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B08201)">}}
 {{<bar-chart url="acs15-0cars2010-2015.csv"
 stacked="true"
 xangle="-90"
+legend-alignment="center"
+legend-row-width="1"
 ylabel="Percentage of Households"
 title="Households with Limited Motor Vehicle Access from 2010 to 2015">}}
 
