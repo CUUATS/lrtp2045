@@ -63,6 +63,20 @@ legend-row-width="2"
 grid-lines="true"
 title="Percent Gender Difference within the MPA">}}
 
+Based on data from the 2015 American Community Survey, the largest shift away
+from the national age distribution occurred in the percentage of college-aged
+adults within Champaign and Urbana. Adults between eighteen to twenty-four years
+old comprised thirty percent more of the Urbana population than the national
+population due the substantial University of Illinois student population. In
+Mahomet and Tolono, youth distribution deviated by more than five percent over
+the national baseline. Youth distribution in Champaign, Urbana, Savoy, and
+Bondville were below the national percentage by three to eleven percent. Savoy’s
+percentage of adults sixty-five years and older doubled in comparison to the
+percentages of older adults living in Champaign and Urbana. With the exception
+of Savoy, municipalities within the MPA had about two to eight percent fewer
+older adults relative to their total populations than the percentages at the
+national level.
+
 {{<bar-chart url="acs15-age.csv"
 stacked="true"
 xangle="0"
@@ -99,10 +113,43 @@ source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B03002)">}}
 
 ## Income and Poverty ##
 
+The income to poverty ratio determines the extent to which a household’s income
+is above or below the poverty threshold. An income to poverty ratio of 0.99 or
+less corresponds with a household income below the poverty threshold, and an
+income to poverty ratio of less than 0.50 represents a household income at less
+than fifty percent of the poverty threshold. Within the MPA, Urbana and
+Champaign have some of the highest percentages of the lowest income to poverty
+ratios. In the ACS data collected between 2010 and 2015, more than a quarter of
+the residents within Urbana and Champaign subsist on income below half of the
+poverty threshold. Mahomet residents have experienced the most freedom from
+poverty, and Tolono was the only municipality with none of its population at an
+income to poverty ratio below half of the poverty threshold.
+
+During the last five years, the population living in poverty has generally
+increased in the MPA municipalities. Urbana and Savoy experienced the most
+significant increases in the percentage of the population living in poverty.
+Despite the rising poverty rates, Tolono and Mahomet still witnessed poverty
+rates at about half the national level. Poverty rates in Savoy and Bondville
+were most comparative to the national level, and Champaign and Urbana exceeded
+the national poverty rates by about 13% and 19%, respectively.
+
+
+{{<bar-chart url="acs-poverty2010-2015.csv"
+stacked="true"
+xangle="0"
+switch="false"
+grid-lines="true"
+columns="1,4,5,6,7"
+legend-alignment="center"
+legend-row-width="2"
+ylabel="Percent of Population"
+title="Income to Poverty Ratio within the MPA">}}
+
 {{<bar-chart url="acs-poverty2010-2015.csv"
 stacked="false"
 xangle="0"
 grid-lines="true"
+columns="1,2,3"
 legend-alignment="center"
 legend-row-width="1"
 ylabel="Percentage of Population"
