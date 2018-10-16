@@ -233,3 +233,35 @@ ylabel="Percentage of Households"
 title="Households with No Motor Vehicle Access from 2010 to 2015">}}
 
 ## Population Distribution and Density ##
+
+
+## Employment ##
+
+Champaign County is a regional center because of the presence of education,
+health care, and manufacturing employers in the area. According to the Illinois
+Department of Employment Security (IDES), the unemployment rate decreased from
+an average of 7.8 to 5.1 percent during the period between 2011 and 2016. The
+labor force during this same time period decreased by 472 workers. The Census
+Bureau’s Quarterly Workforce Indicators identified the following top five
+employments sectors for Champaign County in 2016:
+
+1. Educational Services, 19,070 workers
+2. Health Care and Social Assistance,12,871 workers
+3. Accommodation and Food Services, 9,423 workers
+4. Retail Trade, 8,490 workers
+5. Manufacturing, 7,196 workers
+
+Since 2011, many of the top employers within Champaign County have lost a
+significant number of employees. With the exception of the University of
+Illinois which experienced a growth of 3,313 employees, Champaign County’s top
+ten employers lost over 900 employees from 2011 and 2016. Interestingly, the
+large increase in the University of Illinois employees did not correlate to a
+significant impact on the number of workers in educational services for
+Champaign County during the same time period. The health care and social
+assistance sector had the greatest growth, followed by the accommodation and
+food services sector.
+
+{{<table url="edc-topemployers.csv"
+title="Champaign County Top Employers (2016)"
+switch="false"
+source="Champaign County Economic Development Corporation, 2017">}}
