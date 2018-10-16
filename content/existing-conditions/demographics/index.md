@@ -168,15 +168,15 @@ title="Change in Race and Ethnicity from 2010 to 2015">}}
 
 ## Income and Poverty ##
 
-Within the MPA, Urbana and Champaign have the highest percentages of the
-lowest income to poverty ratios. The income to poverty ratio determines the
-extent to which a household’s income is above or below the poverty threshold. An
-income to poverty ratio of 0.99 or less corresponds with a household income
-below the poverty threshold, and an income to poverty ratio of less than 0.50
-represents a household income at less than fifty percent of the poverty
-threshold. In the ACS data collected between 2010 and 2015, more than a quarter
-of the residents within Urbana and Champaign subsist on income below half of the
-poverty threshold. Mahomet residents have experienced the most freedom from
+Within the MPA, Urbana and Champaign have the highest percentages of the lowest
+income to poverty ratios. The income to poverty ratio determines the extent to
+which a household’s income is above or below the poverty threshold. An income to
+poverty ratio of 0.99 or less corresponds with a household income below the
+poverty threshold, and an income to poverty ratio of less than 0.50 represents a
+household income at less than fifty percent of the poverty threshold. In the ACS
+data collected between 2010 and 2015, about a quarter of Urbana residents and
+nearly twenty percent of Champaign residents subsisted on income below half of
+the poverty threshold. Mahomet residents have experienced the most freedom from
 poverty, and Tolono was the only municipality with none of its population at an
 income to poverty ratio below half of the poverty threshold.
 
@@ -185,16 +185,15 @@ increased in the MPA municipalities. Urbana and Savoy experienced the most
 significant increases in the percentage of the population living in poverty.
 Despite the rising poverty rates, Tolono and Mahomet still witnessed poverty
 rates at about half the national level. Poverty rates in Savoy and Bondville
-were most comparative to the national level, and Champaign and Urbana exceeded
+were most comparable to the national level, and Champaign and Urbana exceeded
 the national poverty rates by about 13% and 19%, respectively.
-
 
 {{<bar-chart url="acs-poverty2010-2015.csv"
 stacked="true"
 xangle="0"
 switch="false"
 grid-lines="true"
-columns="1,4,5,6,7"
+columns="1,4,5,6,7,8"
 legend-alignment="center"
 legend-row-width="2"
 ylabel="Percent of Population"
@@ -210,18 +209,15 @@ legend-row-width="1"
 ylabel="Percentage of Population"
 title="Percentage of Population Living below the Poverty Level">}}
 
-From 2010 to 2015, all municipalities within the MPA witnessed an increase in
-the total combined percentage of zero vehicle households and households with
-limited access to a motor vehicle, except Savoy. More than 8,000 households, or
-approximately fourteen percent of households within the urbanized area, had no
-access to motor vehicles. Urbana and Champaign have the highest percentages of
-households with limited access to a motor vehicle. Approximately forty percent
-of Urbana households and thirty percent of Champaign households do not own a
-motor vehicle, or live in households with limited access to a motor vehicle.
-Mahomet has experienced the most significant decrease in access to motor
-vehicles. The percentage of households without any motor vehicle in Mahomet more
-than doubled between 2010 and 2015, meanwhile the percentage of households with
-only limited access to vehicles also increased by about two percent.
+Champaign, Urbana, Bondville, and Mahomet witnessed an increase in the
+percentage of zero vehicle households from 2010 to 2015. More than 8,000
+households, or approximately fourteen percent of households within the urbanized
+area, had no access to motor vehicles. Mahomet and Urbana experienced the most
+significant decreases in access to motor vehicles. Approximately twenty-one
+percent of Urbana households do not own a motor vehicle, representing a three
+percent increase. Similarly, the percentage of households without any motor
+vehicle in Mahomet more than doubled between 2010 and 2015, representing more
+than a three percent increase from 2010.
 
 {{<table url="acs15-0cars.csv"
 title="Access to Motor Vehicles per Household"
@@ -229,11 +225,11 @@ switch="true"
 source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B08201)">}}
 
 {{<bar-chart url="acs15-0cars2010-2015.csv"
-stacked="true"
-xangle="-90"
+stacked="false"
+xangle="0"
 legend-alignment="center"
 legend-row-width="1"
 ylabel="Percentage of Households"
-title="Households with Limited Motor Vehicle Access from 2010 to 2015">}}
+title="Households with No Motor Vehicle Access from 2010 to 2015">}}
 
 ## Population Distribution and Density ##
