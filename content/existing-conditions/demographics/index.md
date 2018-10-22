@@ -24,11 +24,12 @@ areas of Champaign County. The MPA is used to determine which areas will develop
 in a contiguous manner to the urbanized area over the next 25 years.
 
 General characteristics of each municipality within the MPA are provided in the
-table below. From 2010 to 2015, Savoy, Bondville, and Mahomet experienced the
-greatest changes in population with increases of 10.8%, 7.4%, and 6.9%,
-respectively. Total land area generally remained the same or increased modestly
-for most of the municipalities within the MPA. The greatest change in land area
-occurred in Urbana and Mahomet, with about 2% increases for both.
+table below. From the 2010 to 2015 American Community Survey (ACS), Savoy,
+Bondville, and Mahomet experienced the greatest changes in population with
+increases of 10.8, 7.4, and 6.9 percent, respectively. Total land area generally
+remained the same or increased modestly for most municipalities within the MPA.
+The greatest change in land area occurred in Urbana and Mahomet, with about two
+percent increases for both.
 
 {{<table url="basicdemographics2010-2015.csv"
 title="Basic Characteristics of Municipalities within the MPA"
@@ -44,13 +45,13 @@ title="Percent Change in Population and Land Area">}}
 ## Age and Gender ##
 
 In larger populations, the ratio of men to women approaches one-to-one, or
-approximately fifty percent males to fifty percent females. Data refined from
-the 2015 American Community Survey estimates a nearly balanced ratio of males to
-females in overall U.S. population, with 0.4% more females than males. In
-Champaign, Urbana, and Bondville, gender equilibrium closely parallels the
-national ratio. For the remaining MPA municipalities, a more unbalanced gender
-ratio exists. A greater percentage of females live in Savoy and Mahomet, and
-approximately 6.5% more men reside in Tolono.
+approximately 50 percent males to 50 percent females. Data refined from
+the 2015 ACS estimates a nearly balanced ratio of males to females in overall
+U.S. population, with 0.4 percent more females than males. In Champaign, Urbana,
+and Bondville, gender equilibrium closely parallels the national ratio. Gender
+equilibrium is less balanced within the remaining MPA municipalities. A greater
+percentage of females live in Savoy and Mahomet, and approximately 6.5 percent
+more males than females live in Tolono.
 
 {{<bar-chart url="acs15-gender-awayfrom50.csv"
 stacked="true"
@@ -62,19 +63,18 @@ legend-row-width="2"
 grid-lines="true"
 title="Percent Gender Difference within the MPA">}}
 
-Based on data from the 2015 American Community Survey, the largest shift away
-from the national age distribution occurred in the percentage of college-aged
-adults within Champaign and Urbana. Adults between eighteen to twenty-four years
-old comprised thirty percent more of the Urbana population than the national
-population due the substantial University of Illinois student population. In
-Mahomet and Tolono, youth distribution deviated by more than five percent over
-the national baseline. Youth distribution in Champaign, Urbana, Savoy, and
-Bondville were below the national percentage by three to eleven percent. Savoy’s
-percentage of adults sixty-five years and older doubled in comparison to the
-percentages of older adults living in Champaign and Urbana. With the exception
-of Savoy, municipalities within the MPA had about two to eight percent fewer
-older adults relative to their total populations than the percentages at the
-national level.
+Based on data from the 2015 ACS, the largest shift away from the national age
+distribution occurred in the percentage of college-aged adults within Champaign
+and Urbana. Adults between 18 to 24 years of age comprised 30 percent more of
+the Urbana population than the national population due the substantial
+University of Illinois student population. In Mahomet and Tolono, youth
+distribution deviated over the national baseline by more than five percent.
+Youth distribution in Champaign, Urbana, Savoy, and Bondville were below the
+national percentage by 3 to 11 percent. Savoy’s percentage of adults 65 years
+and over doubled in comparison to the percentages of older adults living in
+Champaign and Urbana. With the exception of Savoy, municipalities within the MPA
+had about two to eight percent fewer older adults relative to their total
+populations than the percentages at the national level.
 
 {{<bar-chart url="acs15-age.csv"
 stacked="true"
@@ -88,15 +88,15 @@ title="Percent Age Distribution within the MPA">}}
 
 ## People with Disabilities ##
 
-Within the MPA, people with disabilities range from seven to fifteen percent of
-the each municipality’s total population. Bondville’s percentage of people with
+Within the MPA, people with disabilities range from 7 to 15 percent of the each
+municipality’s total population. Bondville’s percentage of people with
 disabilities is the highest of all the MPA municipalities, exceeding the next
 highest municipality’s rate by about four percent. Notably, the percentage of
 people with disabilities in Bondville is above the national percentages for all
-age groups and has approximately twice the percentage of adults age eighteen to
-sixty-four with disabilities than the other MPA municipalities. Savoy has the
-largest percentage of adults over the age of sixty-five with a disability at
-over forty percent of the population, followed by Tolono and Mahomet.
+age groups and has approximately twice the percentage of adults age 18 to 64
+with disabilities than the other MPA municipalities. Savoy has the largest
+percentage of adults over the age of 65 with a disability at over 40 percent of
+the population, followed by Tolono and Mahomet.
 
 {{<bar-chart url="acs-disability2010-2015.csv"
 stacked="true"
@@ -111,15 +111,18 @@ title="Percentage of the Population with a Disability">}}
 ## Race and Ethnicity ##
 
 Although the white population continues to decrease in percentage, the
-Champaign-Urbana MPA still has a predominantly white population. The most racial
-diversity is located in Champaign, Urbana, and Savoy. At approximately five to
-seven percent of the population, the Hispanic or Latino population is more
-uniformly distributed than racial groups within the MPA. From 2010 to 2015, the
-percentage of minority populations decreased in Savoy and Mahomet while it
-increased in the other MPA municipalities. The Asian population rose by about
-two percent in Champaign, Urbana, and Savoy. Bondville and Tolono experienced
-the most significant increases in both the black or African American population
-and the Hispanic or Latino population.
+Champaign-Urbana MPA still has a predominantly white population. The majority of
+racial diversity is located in Champaign, Urbana, and Savoy. The percentage of
+minority racial groups in these municipalities tends to be about 25 percent
+higher than those in Tolono, Bondville, and Mahomet. The Hispanic or Latino
+population is more uniformly distributed within each of the MPA municipalities,
+with a range of 3.2 percent of the population in Mahomet to 6.7 percent in
+Tolono. From the 2010 to 2015 ACS, the percentage of minority populations
+decreased in Savoy and Mahomet while it increased in the other MPA
+municipalities. The Asian population rose by about two percent in Champaign,
+Urbana, and Savoy. Bondville and Tolono experienced the most significant
+increases in both the black or African American population and the Hispanic or
+Latino population.
 
 {{<table url="acs-raceethnicity2010-2015.csv"
 title="Race Composition of Municipalities within the MPA"
@@ -168,25 +171,26 @@ title="Change in Race and Ethnicity from 2010 to 2015">}}
 
 ## Income and Poverty ##
 
-Within the MPA, Urbana and Champaign have the highest percentages of the lowest
-income to poverty ratios. The income to poverty ratio determines the extent to
-which a household’s income is above or below the poverty threshold. An income to
-poverty ratio of 0.99 or less corresponds with a household income below the
-poverty threshold, and an income to poverty ratio of less than 0.50 represents a
-household income at less than fifty percent of the poverty threshold. In the ACS
-data collected between 2010 and 2015, about a quarter of Urbana residents and
-nearly twenty percent of Champaign residents subsisted on income below half of
-the poverty threshold. Mahomet residents have experienced the most freedom from
-poverty, and Tolono was the only municipality with none of its population at an
-income to poverty ratio below half of the poverty threshold.
+Within the MPA, Urbana and Champaign have the highest percentages of people
+living in poverty, as measured by a low income to poverty ratio. The income to
+poverty ratio determines the extent to which a household’s income is above or
+below the poverty threshold. An income to poverty ratio of less than one
+corresponds with a household income below the poverty threshold, and an income
+to poverty ratio of less than 0.50 represents a household income at less than
+50 percent of the poverty threshold. In the ACS data collected between 2010
+and 2015, about a quarter of Urbana residents and nearly 20 percent of
+Champaign residents subsisted on income below half of the poverty threshold.
+Mahomet residents experienced the most freedom from poverty, and Tolono was the
+only municipality with none of its population in the most severe range of
+poverty.
 
-During the last five years, the population living in poverty has generally
-increased in the MPA municipalities. Urbana and Savoy experienced the most
-significant increases in the percentage of the population living in poverty.
-Despite the rising poverty rates, Tolono and Mahomet still witnessed poverty
-rates at about half the national level. Poverty rates in Savoy and Bondville
-were most comparable to the national level, and Champaign and Urbana exceeded
-the national poverty rates by about 13% and 19%, respectively.
+The population living in poverty has generally increased within the MPA
+municipalities during the years between the 2010 and 2015 ACS. Urbana and Savoy
+experienced the most significant increases in the percentage of the population
+living in poverty. Despite the rising poverty rates, Tolono and Mahomet still
+witnessed poverty rates at about half the national level. Poverty rates in Savoy
+and Bondville were most comparable to the national level. Champaign and
+Urbana exceeded the national poverty rates by about 13 and 19 percent, respectively.
 
 {{<bar-chart url="acs-poverty2010-2015.csv"
 stacked="true"
@@ -209,15 +213,15 @@ legend-row-width="1"
 ylabel="Percentage of Population"
 title="Percentage of Population Living below the Poverty Level">}}
 
-Champaign, Urbana, Bondville, and Mahomet witnessed an increase in the
-percentage of zero vehicle households from 2010 to 2015. More than 8,000
-households, or approximately fourteen percent of households within the urbanized
-area, had no access to motor vehicles. Mahomet and Urbana experienced the most
-significant decreases in access to motor vehicles. Approximately twenty-one
+Zero vehicle households increased in percentage between the 2010 and 2015 ACS
+for the following MPA municipalities: Champaign, Urbana, Bondville, and Mahomet.
+More than 8,000 households, or approximately 14 percent of households within the
+urbanized area, had no access to motor vehicles. Mahomet and Urbana experienced
+the most significant decreases in access to motor vehicles. Approximately 21
 percent of Urbana households do not own a motor vehicle, representing a three
-percent increase. Similarly, the percentage of households without any motor
-vehicle in Mahomet more than doubled between 2010 and 2015, representing more
-than a three percent increase from 2010.
+percent increase from the 2010 ACS. Similarly, the percentage of households
+without any motor vehicle in Mahomet more than doubled, representing more than a
+three percent increase.
 
 {{<table url="acs15-0cars.csv"
 title="Access to Motor Vehicles per Household"
@@ -234,6 +238,18 @@ title="Households with No Motor Vehicle Access from 2010 to 2015">}}
 
 ## Population Distribution and Density ##
 
+The urbanized area grew from 123,938 people in 2000 to 145,361 people in 2010.
+The urbanized area also grew by more than eight square miles from 2000 to 2010
+with a continued trend of nearly three-percent shift from rural to urban land
+designation per decade in Champaign County from 1980 to 2010. Changes in the
+urbanized area boundary occur every ten years in conjugation with the decennial
+census. Since the last LRTP update, there have been no updates to the urbanized
+area boundary as a result of being between decennial censuses.
+
+{{<table url="urban-rural-ratio1980-2010.csv"
+title="Urban-Rural Ratio (1980-2010)"
+switch="false"
+source="US Census Bureau, Decennial Census 1980-2010. SF1 (Table P2)">}}
 
 ## Employment ##
 
