@@ -31,16 +31,21 @@ remained the same or increased modestly for most municipalities within the MPA.
 The greatest change in land area occurred in Urbana and Mahomet, with about two
 percent increases for both.
 
-{{<table url="basicdemographics2010-2015.csv"
-title="Basic Characteristics of Municipalities within the MPA"
+<rpc-table text-alignment="1,r"
+url="basicdemographics2010-2015.csv"
+table-title="Basic Characteristics of Municipalities within the MPA"
 switch="true"
-source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B01003) and US Census Bureau, Decennial Census, 2010">}}
+source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B01003) and US Census Bureau, Decennial Census, 2010"></rpc-table>
 
-{{<bar-chart url="chart-basicdemoinfo.csv"
-ylabel="Percent Change"
-legend-alignment="center"
-legend-row-width="1"
-title="Percent Change in Population and Land Area">}}
+<rpc-chart
+url="chart-basicdemoinfo.csv"
+type="bar"
+colors="blue,red"
+y-label="Percent Change"
+legend-position="top"
+legend="true"
+tooltip-intersect="true"
+chart-title="Percent Change in Population and Land Area"></rpc-chart>
 
 ## Age and Gender ##
 
@@ -53,15 +58,17 @@ equilibrium is less balanced within the remaining MPA municipalities. A greater
 percentage of females live in Savoy and Mahomet, and approximately 6.5 percent
 more males than females live in Tolono.
 
-{{<bar-chart url="acs15-gender-awayfrom50.csv"
+<rpc-chart
+url="acs15-gender-awayfrom50.csv"
+type="bar"
 stacked="true"
-xangle="0"
-xaxis="numeric"
-ylabel="Percent Distance away from Equilibrium"
-legend-alignment="center"
-legend-row-width="2"
-grid-lines="true"
-title="Percent Gender Difference within the MPA">}}
+colors="#24ABE2, #BE1E2D"
+y-label="Percent Distance away from Equilibrium"
+legend-position="top"
+legend="true"
+tooltip-intersect="true"
+source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B01001)"
+chart-title="Percent Gender Difference within the MPA"></rpc-chart>
 
 Based on data from the 2015 ACS, the largest shift away from the national age
 distribution occurred in the percentage of college-aged adults within Champaign
@@ -76,14 +83,16 @@ Champaign and Urbana. With the exception of Savoy, municipalities within the MPA
 had about two to eight percent fewer older adults relative to their total
 populations than the percentages at the national level.
 
-{{<bar-chart url="acs15-age.csv"
+<rpc-chart
+url="acs15-age.csv"
+type="bar"
 stacked="true"
-xangle="0"
-ylabel="Percent of Population"
-legend-alignment="center"
-legend-row-width="1"
-grid-lines="false"
-title="Percent Age Distribution within the MPA">}}
+y-label="Percent of Population"
+legend-position="top"
+legend="true"
+tooltip-intersect="true"
+source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B01001)"
+chart-title="Percent Age Distribution within the MPA"></rpc-chart>
 
 
 ## People with Disabilities ##
@@ -98,15 +107,24 @@ with disabilities than the other MPA municipalities. Savoy has the largest
 percentage of adults over the age of 65 with a disability at over 40 percent of
 the population, followed by Tolono and Mahomet.
 
-{{<bar-chart url="acs-disability2010-2015.csv"
+<rpc-chart
+url="acs-disability2010-2015.csv"
+type="bar"
 stacked="true"
-xangle="-0"
 columns="1,2,3,4"
-ylabel="Percentage of Population"
-legend-alignment="center"
-legend-row-width="1"
-grid-lines="true"
-title="Percentage of the Population with a Disability">}}
+y-label="Percentage of Population"
+legend-position="top"
+legend="true"
+tooltip-intersect="true"
+source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B18101)"
+chart-title="Percentage of the Population with a Disability"><rpc-dataset
+type="line"
+label="National Percentage of People with Disabilities"
+data="12.4,12.4,12.4,12.4,12.4,12.4"
+fill="false"
+order="7"
+border-color="gray"
+point-radius="0"></rpc-dataset></rpc-chart>
 
 ## Race and Ethnicity ##
 
@@ -124,50 +142,86 @@ Urbana, and Savoy. Bondville and Tolono experienced the most significant
 increases in both the black or African American population and the Hispanic or
 Latino population.
 
-{{<table url="acs-raceethnicity2010-2015.csv"
-title="Race Composition of Municipalities within the MPA"
+<rpc-table
+url="acs-raceethnicity2010-2015.csv"
+text-alignment="1,r"
+table-title="Race Composition of Municipalities within the MPA"
 switch="true"
 columns="1,3,4,5,6,7,8"
-source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B02001)">}}
+source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B02001)"></rpc-table>
 
-{{<table url="acs15-ethnicity.csv"
-title="Hispanic or Latino Ethnicity within Municipalities of the MPA"
+<rpc-table
+url="acs15-ethnicity.csv"
+text-alignment="1,r"
+table-title="Hispanic or Latino Ethnicity within Municipalities of the MPA"
 switch="true"
-source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B03002)">}}
+source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B03002)"></rpc-table>
 
-{{<bar-chart url="acs-raceethnicity2010-2015.csv"
+<rpc-chart
+url="acs-raceethnicity2010-2015.csv"
+type="bar"
+colors="#c4c4c4,#24ABE2"
 stacked="false"
+grid-lines="false"
 xangle="-0"
 rows="16,17,18,19,20,21,22"
 columns="1,2,3"
-ylabel="Percentage of Population"
-legend-alignment="center"
-legend-row-width="1"
-grid-lines="true"
-title="Race and Ethnicity from 2010 to 2015">}}
+y-label="Percentage of Population"
+legend-position="top"
+legend="true"
+tooltip-intersect="true"
+grid-lines="false"
+source="US Census Bureau, ACS 5-Yr Data, 2005-2015 (Table B02001)"
+chart-title="Race and Ethnicity from 2010 to 2015">
+<rpc-dataset
+type="line"
+fill="false"
+border-color="#c4c4c4"
+border-width="1"
+point-radius="0"
+order="3"
+label="National Percentage of Minority Groups in 2010"
+data="26.0,26.0,26.0,26.0,26.0,26.0">
+</rpc-dataset><rpc-dataset
+type="line"
+fill="false"
+border-color="#24ABE2"
+border-width="1"
+point-radius="0"
+order="4"
+label="National Percentage of Minority Groups in 2015"
+data="26.4,26.4,26.4,26.4,26.4,26.4">
+</rpc-dataset></rpc-chart>
 
-{{<bar-chart url="acs-raceethnicity2010-2015.csv"
+<rpc-chart
+url="acs-raceethnicity2010-2015.csv"
+type="bar"
 switch="false"
+colors="blue,orange,red,green,indigo,lime,#c4c4c4"
 rows="1,3,4,5,6,7,8"
 stacked="true"
-xangle="-0"
-ylabel="Percentage of Population"
-legend-alignment="center"
-legend-row-width="2"
+y-label="Percentage of Population"
+legend-position="top"
+legend="true"
+tooltip-intersect="true"
 grid-lines="true"
-title="Race in MPA Municipalities in 2015">}}
+source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B02001)"
+chart-title="Race within MPA Municipalities in 2015"></rpc-chart>
 
-{{<bar-chart url="acs-raceethnicity2010-2015.csv"
+<rpc-chart
+url="acs-raceethnicity2010-2015.csv"
+type="bar"
 switch="false"
 stacked="false"
 rows="9,10,11,12,13,14,15"
 columns="1,2,3,4"
-xangle="-0"
-ylabel="Percent Difference"
-legend-alignment="center"
-legend-row-width="1"
+y-label="Percent Difference"
+legend-position="top"
+legend="true"
 grid-lines="true"
-title="Change in Race and Ethnicity from 2010 to 2015">}}
+tooltip-intersect="true"
+source="US Census Bureau, ACS 5-Yr Data, 2005-2015 (Tables B02001 and B03002)"
+chart-title="Change in Race and Ethnicity from 2010 to 2015"></rpc-chart>
 
 ## Income and Poverty ##
 
@@ -192,26 +246,62 @@ witnessed poverty rates at about half the national level. Poverty rates in Savoy
 and Bondville were most comparable to the national level. Champaign and
 Urbana exceeded the national poverty rates by about 13 and 19 percent, respectively.
 
-{{<bar-chart url="acs-poverty2010-2015.csv"
-stacked="true"
-xangle="0"
+<rpc-chart
+url="acs-poverty2010-2015.csv"
+type="bar"
 switch="false"
-grid-lines="true"
+colors="red,#c77f87,gray,#c4c4c4,#DDDDDD"
 columns="1,4,5,6,7,8"
-legend-alignment="center"
-legend-row-width="2"
-ylabel="Percent of Population"
-title="Income to Poverty Ratio within the MPA">}}
+grid-lines="false"
+stacked="true"
+legend-position="top"
+legend="true"
+y-label="Percentage of Population"
+tooltip-intersect="true"
+source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B17002)"
+chart-title="Income to Poverty Ratio within the MPA">
+<rpc-dataset
+type="line"
+label="National Rate of Poverty"
+data="15.5,15.5,15.5,15.5,15.5,15.5"
+fill="false"
+order="7"
+border-color="#470b11"
+point-radius="0"></rpc-dataset>
+</rpc-chart>
 
-{{<bar-chart url="acs-poverty2010-2015.csv"
+<rpc-chart
+url="acs-poverty2010-2015.csv"
+type="bar"
 stacked="false"
-xangle="0"
-grid-lines="true"
 columns="1,2,3"
-legend-alignment="center"
-legend-row-width="1"
-ylabel="Percentage of Population"
-title="Percentage of Population Living below the Poverty Level">}}
+colors="#c4c4c4, #24ABE2"
+legend-position="top"
+legend="true"
+y-label="Percentage of Population"
+tooltip-intersect="true"
+source="US Census Bureau, ACS 5-Yr Data, 2005-2015 (Table B17001)"
+chart-title="Percentage of Population Living below the Poverty Level">
+<rpc-dataset
+type="line"
+fill="false"
+border-color="#c4c4c4"
+border-width="1"
+point-radius="0"
+order="3"
+label="National Poverty Rate in 2010"
+data="13.8,13.8,13.8,13.8,13.8,13.8">
+</rpc-dataset><rpc-dataset
+type="line"
+fill="false"
+border-color="#24ABE2"
+border-width="1"
+point-radius="0"
+order="4"
+label="National Poverty Rate in 2015"
+data="15.5,15.5,15.5,15.5,15.5,15.5">
+</rpc-dataset></rpc-chart>
+
 
 Zero vehicle households increased in percentage between the 2010 and 2015 ACS
 for the following MPA municipalities: Champaign, Urbana, Bondville, and Mahomet.
@@ -223,18 +313,44 @@ percent increase from the 2010 ACS. Similarly, the percentage of households
 without any motor vehicle in Mahomet more than doubled, representing more than a
 three percent increase.
 
-{{<table url="acs15-0cars.csv"
-title="Access to Motor Vehicles per Household"
+<rpc-table
+url="acs15-0cars.csv"
+text-alignment="1,r"
+table-title="Access to Motor Vehicles per Household"
 switch="true"
-source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B08201)">}}
+source="US Census Bureau, ACS 5-Yr Data, 2010-2015 (Table B08201)"></rpc-table>
 
-{{<bar-chart url="acs15-0cars2010-2015.csv"
+<rpc-chart
+url="acs15-0cars2010-2015.csv"
+type="bar"
+colors="#c4c4c4,#24ABE2"
 stacked="false"
-xangle="0"
-legend-alignment="center"
-legend-row-width="1"
-ylabel="Percentage of Households"
-title="Households with No Motor Vehicle Access from 2010 to 2015">}}
+legend-position="top"
+legend="true"
+y-label="Percentage of Households"
+tooltip-intersect="true"
+chart-title="Households with No Motor Vehicle Access from 2010 to 2015"
+source="US Census Bureau, ACS 5-Yr Data, 2005-2015 (Table B08201)">
+<rpc-dataset
+type="line"
+fill="false"
+border-color="#c4c4c4"
+border-width="1"
+point-radius="0"
+order="3"
+label="National Rate of Zero Vehicles in 2010"
+data="8.9,8.9,8.9,8.9,8.9,8.9">
+</rpc-dataset><rpc-dataset
+type="line"
+fill="false"
+border-color="#24ABE2"
+border-width="1"
+point-radius="0"
+order="4"
+label="National Rate of Zero Vehicles in 2015"
+data="9.1,9.1,9.1,9.1,9.1,9.1">
+</rpc-dataset>
+</rpc-chart>
 
 ## Population Distribution and Density ##
 
@@ -246,10 +362,11 @@ urbanized area boundary occur every ten years in conjugation with the decennial
 census. Since the last LRTP update, there have been no updates to the urbanized
 area boundary as a result of being between decennial censuses.
 
-{{<table url="urban-rural-ratio1980-2010.csv"
-title="Urban-Rural Ratio (1980-2010)"
+<rpc-table url="urban-rural-ratio1980-2010.csv"
+table-title="Urban-Rural Ratio (1980-2010)"
+text-alignment="1,r"
 switch="false"
-source="US Census Bureau, Decennial Census 1980-2010. SF1 (Table P2)">}}
+source="US Census Bureau, Decennial Census 1980-2010. SF1 (Table P2)"></rpc-table>
 
 ## Employment ##
 
@@ -277,7 +394,9 @@ Champaign County during the same time period. The health care and social
 assistance sector had the greatest growth, followed by the accommodation and
 food services sector.
 
-{{<table url="edc-topemployers.csv"
-title="Champaign County Top Employers (2016)"
+<rpc-table
+url="edc-topemployers.csv"
+text-alignment="1,r"
+table-title="Champaign County Top Employers (2016)"
 switch="false"
-source="Champaign County Economic Development Corporation, 2017">}}
+source="Champaign County Economic Development Corporation, 2017"></rpc-table>
